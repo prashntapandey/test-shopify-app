@@ -83,27 +83,6 @@ export function cartLinesDiscountsGenerateRun(
       },
     });
   }
-  // for(const line of input.cart.lines){
-  //   if(line.quantity>=10){
-  //     operations.push({
-  //       targets:[
-  //         {
-  //           cartLine:{
-  //             id:line.id
-  //           }
-  //         }
-  //       ],
-
-  //       value:{
-  //         percentage:{
-  //           value:10
-  //         }
-  //       },
-  //       message:"10 "
-
-  //     })
-  //   }
-  // }
 
   return {
     operations,

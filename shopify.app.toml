@@ -3,7 +3,7 @@
 client_id = "06a6dcc12a0e46225e948d3386a6650f"
 name = "App-with-remix"
 handle = "app-with-remix-2"
-application_url = "https://definitions-allocation-ceiling-closest.trycloudflare.com"
+application_url = "https://urgent-charleston-fine-parameter.trycloudflare.com"
 embedded = true
 
 [build]
@@ -27,7 +27,7 @@ api_version = "2025-07"
 scopes = "write_products,write_discounts,read_products"
 
 [auth]
-redirect_urls = ["https://definitions-allocation-ceiling-closest.trycloudflare.com/auth/callback", "https://definitions-allocation-ceiling-closest.trycloudflare.com/auth/shopify/callback", "https://definitions-allocation-ceiling-closest.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://urgent-charleston-fine-parameter.trycloudflare.com/auth/callback", "https://urgent-charleston-fine-parameter.trycloudflare.com/auth/shopify/callback", "https://urgent-charleston-fine-parameter.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false

@@ -18,7 +18,7 @@ export function cartDeliveryOptionsDiscountsGenerateRun(
   );
 
   if (!hasShippingDiscountClass) {
-    return {operations: []};
+    return { operations: [] };
   }
 
   return {
@@ -27,13 +27,12 @@ export function cartDeliveryOptionsDiscountsGenerateRun(
         deliveryDiscountsAdd: {
           candidates: [
             {
-              message: "50% discount",
+              message: "50% off",
               targets: [
                 {
                   deliveryGroup: {
                     id: firstDeliveryGroup.id,
                   },
-                  
                 },
               ],
               value: {

@@ -2,7 +2,7 @@ api_version = "2025-04"
 
 [[extensions]]
 name = "t:name"
-handle = "bumper-offer"
+handle = "bumper-price"
 type = "function"
 
 description = "t:description"
